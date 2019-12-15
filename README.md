@@ -5,24 +5,23 @@ Transparent, conductive materials are a unique class of compounds, which have bo
 
 Using machine learning methods we have estimated the band gap and formation energy of materials. The models were trained using attributes, which describe the symmetry of crystal combined with qualities that describe crystal’s chemical environment.
 
-In addition to SKLearn, Pandas, MatPlotLib and NumPy the project uses :
-  Atomic Simulation Environment (ASE) python package
+In addition to SKLearn, Pandas, MatPlotLib and NumPy the project uses Atomic Simulation Environment (ASE) python package
     pip install --upgrade --user ase
 
 Project is divided into:
-  Jupyter Notebooks:
-    helper_functions.ipynb - Notebook containing useful functions that are used multiple times
-    Data preparation.ipynb - Notebook for calculating additional features e.g. coordination numbers, partial charges
-    Data exploration.ipynb - Notebook for exploration of data and visualizing it
-    Model Training Heigo.ipynb - Notebook containing preliminary models built by Heigo
-    Model training Taido.ipynb - Notebook containing preliminary models built by Taido
-    Model training 2.ipynb - Notebook containing Stacked model
-  .csv files:
-    additionalAttributes.csv - Calculated additional attributes for Training data
-    additionalAttributesTest.csv - Calculated additional attributes for Test data
-    test.csv - Data provided by Kaggle for Test data
-    train.csv - Data provided by Kaggle for Training data
-  Folders:
-    test - Folder containing geometries of materials of Test data
-    train - Folder containing geometries of materials of Training data
-    Figures - Folder containing figures used in poster
+  * Jupyter Notebooks:
+    * helper_functions.ipynb - Notebook containing useful functions that are used multiple times
+    * Data preparation.ipynb - Notebook for calculating additional features e.g. coordination numbers, partial charges
+    * Data exploration.ipynb - Notebook for exploration of data and visualizing it
+    * Model Training Heigo.ipynb - Notebook containing preliminary models built by Heigo
+    * Model training Taido.ipynb - Notebook containing preliminary models built by Taido
+    * Model training 2.ipynb - Notebook containing Stacked model
+  * .csv files:
+    * additionalAttributes.csv - Calculated additional attributes for Training data
+    * additionalAttributesTest.csv - Calculated additional attributes for Test data
+    * test.csv - Data provided by Kaggle for Test data
+    * train.csv - Data provided by Kaggle for Training data
+  * Folders:
+    * test - Folder containing geometries of materials of Test data
+    * train - Folder containing geometries of materials of Training data
+    * Figures - Folder containing figures used in poster
