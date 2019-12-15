@@ -14,7 +14,7 @@ Project is divided into:
     * Data preparation.ipynb - Notebook for calculating additional features e.g. coordination numbers, partial charges
     * Data exploration.ipynb - Notebook for exploration of data and visualizing it
     * Model Training Heigo.ipynb - Notebook containing preliminary models built by Heigo
-    * test_notebook.ipynb - Notebook containing preliminary models built by Taido, can be ignored
+    * test_notebook.ipynb - Notebook containing preliminary models and testing code, can be ignored
     * Model training 2.ipynb - Notebook containing Stacked model
   * .csv files:
     * additionalAttributes.csv - Calculated additional attributes for Training data
